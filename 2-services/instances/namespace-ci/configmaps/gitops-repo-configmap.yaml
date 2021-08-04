@@ -1,13 +1,13 @@
 apiVersion: v1
 data:
-  branch: <branch>
+  branch: demo-mq-v2-hodgesdavidk
   host: github.com
-  org: <github-org>
-  owner: <github-id>
+  org: hodgesdavidk
+  owner: hodgesdavidk
   parentdir: .
   protocol: https
   repo: multi-tenancy-gitops
-  url: https://github.com/<github-org>/multi-tenancy-gitops.git
+  url: https://github.com/hodgesdavidk/multi-tenancy-gitops.git
 kind: ConfigMap
 metadata:
   labels:
